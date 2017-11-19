@@ -2,6 +2,7 @@
 
 def display_board
   puts "A Tic Tac Toe Board"
-  board = Array.new(9, " ")
-    puts "   |   |   ", "-----------", "   |   |   ", "-----------", "   |   |   "
+  def initialize
+  @spaces = Array.new(9)
+  puts "   |   |   ", "-----------", "   |   |   ", "-----------", "   |   |   "
 end
