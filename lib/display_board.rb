@@ -2,6 +2,10 @@
 
 def display_board
   puts "A Tic Tac Toe Board"
-  board = Array.new(9)
-  puts "   |   |   ", "-----------", "   |   |   ", "-----------", "   |   |   "
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
 end
+    
